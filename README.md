@@ -19,7 +19,7 @@ A **web application** that allows users to register, log in, view leaderboards, 
 
 ## Introduction
 
-This project is a **web application** built with **React**, allowing users to register, log in, view leaderboards, and access their test history. It uses a modern tech stack to provide a seamless user experience.
+This project is a **web application** built with **React** and **Vite**, allowing users to register, log in, view leaderboards, and access their test history. It uses a modern tech stack to provide a seamless user experience.
 
 ---
 
@@ -49,7 +49,7 @@ The application enables users to:
 - **Yup**: For form validation.
 - **Axios**: For making HTTP requests to the backend API.
 - **Tailwind CSS**: For styling the components with utility-first CSS.
-
+- **Vite**: Vite is a local development server written by Evan You, the creator of Vue.js, and used by default by Vue and for React project templates. 
 ---
 
 ## Installation
@@ -80,12 +80,12 @@ Contributions are welcome! If you have suggestions for improvements or want to f
 
 1.Fork the repository.
 2.Create a new branch:
- 3. git checkout -b feature/YourFeature
+3. git checkout -b feature/YourFeature
 4. Make your changes.
 5.Commit your changes:
 
 6.git commit -m 'Add your feature'
- 7. Push to the branch:
+7. Push to the branch:
 
  8.git push origin feature/YourFeature
 Open a pull request.
