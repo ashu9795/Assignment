@@ -1,10 +1,10 @@
-# Assignment
-Project Title
+
+#Project Title
 A web application that allows users to register, log in, view leaderboards, and access their test history. The app provides an interactive platform for users to track their performance and compete with others.
 
-Table of Contents
-Introduction
-Features
+#1Table of Contents
+#2Introduction
+#3Features
 Technologies Used
 Installation
 Usage
@@ -54,18 +54,7 @@ Navigate to the Registration Page to create a new account.
 Use the Login Page to access your account.
 View the Leaderboard to see user rankings.
 Access your Test History to review your past results.
-Folder Structure
-bash
-Copy code
-/yourproject
-|-- /public
-|-- /src
-|   |-- /components        # Reusable components
-|   |-- /pages             # Different pages of the app
-|   |-- /context           # Context API for state management
-|   |-- App.js             # Main app component
-|   |-- index.js           # Entry point of the app
-|-- package.json            # Project metadata and dependencies
+
 Contributing
 Contributions are welcome! If you have suggestions for improvements or want to fix bugs, feel free to open an issue or submit a pull request.
 
