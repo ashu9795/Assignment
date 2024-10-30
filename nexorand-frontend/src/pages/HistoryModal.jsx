@@ -21,8 +21,8 @@ const HistoryModal = ({ historyType, onClose }) => {
 
       try {
         const response = await axios.get(url);
+        console.log('Fetched history data:', response.data.data); // Log the fetched data
         setHistoryData(response.data.data);
-        console.log(response.data.data);
       } catch (error) {
         console.error("Error fetching history:", error);
       } finally {
