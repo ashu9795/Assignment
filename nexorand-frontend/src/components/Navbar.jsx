@@ -17,7 +17,7 @@ const Navbar = () => {
 
     const fetchUserInfo = async () => {
         try {
-            const response = await fetch('https://assignment-1-fdyw.onrender.com/api/user/v1/get-users-info', {
+            const response = await fetch('https://localhost:7000/api/user/v1/get-users-info', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
